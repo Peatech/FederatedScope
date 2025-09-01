@@ -22,7 +22,8 @@ data:
   subsample: 0.05
   transform: [['ToTensor'], ['Normalize', {'mean': [0.9637], 'std': [0.1592]}]]
 dataloader:
-  batch_size: 32
+  batch_size: 10
+  num_workers: 0
 model:
   type: convnet2
   hidden: 2048
