@@ -12,7 +12,7 @@ train:
   local_update_steps: 2
   batch_or_epoch: epoch
 data:
-  dataset: ['train', 'val', 'test', 'poison']
+  #dataset: ['train', 'val', 'test', 'poison']
   root: data/
   type: femnist
   # form: dataloader
