@@ -7,8 +7,8 @@ __version__ = '0.3.0'
 URL = 'https://github.com/alibaba/FederatedScope'
 
 minimal_requires = [
-    'numpy<1.23.0', 'scikit-learn==1.0.2', 'scipy==1.7.3', 'pandas',
-    'grpcio>=1.45.0', 'grpcio-tools', 'pyyaml>=5.1', 'fvcore', 'iopath',
+    'numpy', 'scikit-learn', 'scipy', 'pandas',
+    'grpcio', 'grpcio-tools', 'pyyaml', 'fvcore', 'iopath',
     'wandb', 'tensorboard', 'tensorboardX', 'pympler', 'protobuf==3.19.4',
     'matplotlib'
 ]
@@ -17,16 +17,16 @@ test_requires = ['pytest', 'pytest-cov']
 
 dev_requires = test_requires + ['pre-commit', 'networkx', 'matplotlib']
 
-org_requires = ['paramiko==2.11.0', 'celery[redis]', 'cmd2']
+org_requires = ['paramiko', 'celery[redis]', 'cmd2']
 
 app_requires = [
-    'torch-geometric==2.0.4', 'nltk', 'transformers==4.16.2',
-    'tokenizers==0.10.3', 'datasets', 'sentencepiece', 'textgrid', 'typeguard',
-    'openml==0.12.2'
+    'torch-geometric', 'nltk', 'transformers',
+    'tokenizers', 'datasets', 'sentencepiece', 'textgrid', 'typeguard',
+    'openml'
 ]
 
 benchmark_hpo_requires = [
-    'configspace==0.5.0', 'hpbandster==0.7.4', 'smac==1.3.3', 'optuna==2.10.0'
+    'configspace', 'hpbandster', 'smac', 'optuna'
 ]
 
 benchmark_htl_requires = ['learn2learn']
