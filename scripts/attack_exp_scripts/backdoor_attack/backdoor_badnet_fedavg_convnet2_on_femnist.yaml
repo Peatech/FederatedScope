@@ -5,10 +5,11 @@ early_stop:
 seed: 2333
 federate:
   mode: standalone
-  local_update_steps: 2
   total_round_num: 1000
   sample_client_rate: 0.1
   client_num: 200
+train:
+  local_update_steps: 2
   batch_or_epoch: epoch
 data:
   dataset: ['train', 'val', 'test', 'poison']
